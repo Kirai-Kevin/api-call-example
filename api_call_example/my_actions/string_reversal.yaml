@@ -1,0 +1,10 @@
+default_model:
+  model: ollama/llama3
+  api_base: https://raphaelfrancis.com/ollama
+  auth_token: SmartPinkElephant:719b6a1a20e5b0745406f7e937117688a60fecc11ccea93ad8f082beb4fd762989f404efd4ee1d041b8d96e2fceb0c3a1117c10f60206964b99b00bf
+flow:
+  reverse_string:
+    action: my_reverse_string
+    input_string:
+      var: my_input
+default_output: reverse_string.reversed_string
